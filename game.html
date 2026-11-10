@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Pong Game</title>
+    <link href="game.css" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameContainer" width="800" height="600"></canvas>
+        <div id="menu" class="menu">
+            <h1 id="menuTitle">Ping Pong Game</h1>
+            <div class="difficulty">
+                <button class="difficulty-button active" data-difficulty="default">Default</button>
+                <button class="difficulty-button" data-difficulty="hard">Hard</button>
+                <button class="difficulty-button" data-difficulty="madness">Madness</button>
+            </div>
+            <button id="playButton" class="menu-button">Play</button>
+        </div>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>

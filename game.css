@@ -1,0 +1,63 @@
+.game-container {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#gameContainer {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: rgba(0, 0, 0, 0.75);
+    color: yellow;
+    font-family: sans-serif;
+}
+
+.menu.hidden {
+    display: none;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.menu-button {
+    padding: 12px 48px;
+    font-size: 24px;
+    color: black;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background: #fff27a;
+}
+
+.difficulty {
+    display: flex;
+    gap: 12px;
+}
+
+.difficulty-button {
+    padding: 8px 20px;
+    font-size: 18px;
+    color: yellow;
+    background: transparent;
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+
+.difficulty-button.active {
+    color: black;
+    background: yellow;
+}
